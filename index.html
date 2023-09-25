@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Guess The Number | The Designer Developer</title>
+    <meta name="description"
+        content="Fun game using JavaScript to generate a random number and then letting you know if you guessed it right.">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="script.js"></script>
+    <meta property="og:image" content="/guess-featured.jpg" />
+    <link rel="shortcut icon" href="favicon.ico">
+</head>
+
+<body class="text-center">
+    <nav class="navbar navbar-dark bg-dark">
+        <!-- Navbar content -->
+        <a class="navbar-brand" href="#">Guess The Number</a>
+    </nav>
+    <main>
+        <h1 class="banner p-3">1.2.3.</h1>
+        <div class="form-group ">
+            <input id="number-guess" class="form-control form-control-lg" type="number"
+                placeholder="What's your guess?">
+        </div>
+        <div id="result">
+            <!-- This is where the result will be-->
+        </div>
+        <button type="button" id="number-submit" class="btn btn-lg btn-secondary">Check Me</button>
+        <button type="button" id="restart-game" class="btn btn-lg btn-light">Restart</button>
+        <div id="history">
+            <!-- This is where the guess history will be-->
+        </div>
+    </main>
+    <p style="position: absolute;bottom: 0;left: 50%;transform: translate(-50%, 0);">Please do not copy any of the text,
+        images or other <a href="https://thedesignerdeveloper.com" target="_blank">web developer</a>'s work.</p>
+</body>
+
+</html>
